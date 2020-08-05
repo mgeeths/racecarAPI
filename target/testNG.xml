@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/browse/WebAutomation/WebServiceAutomation">
+        <classes>
+            <class name="com.rest.qa.testMethods.testGetMethod">
+                <methods>
+                    <include name="verifyGetMethod"/>
+                    <include name="verifyGetMethodWithHeaders"/>
+                    <include name="verifyGetThirdUserDetails"/>
+                    <include name="verifyGetPageTwoUsers"/>
+                    <include name="verifyInvalidUser"/>
+                </methods>
+            </class>
+            <class name="com.rest.qa.testMethods.testPostMethod">
+                <methods>
+                    <include name="verifyPostMethod"/>
+                </methods>
+            </class>
+            <class name="com.rest.qa.testMethods.testPutMethod">
+                <methods>
+                    <include name="verifyPutMethod"/>
+                </methods>
+            </class>
+            <class name="com.rest.qa.testMethods.testDeleteMethod">
+                <methods>
+                    <include name="verifyDeleteMethod"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
